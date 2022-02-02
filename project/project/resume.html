@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Resume Generator</title>
+</head>
+<body>
+
+    <!--here goes html code--> 
+<div class="container">
+<h1 class="text-center my-2">Resume Generator</h1>
+</div>
+
+<div clss="row">
+    
+    <div class="col-md-6">
+        <h2 class="text-center">Personal Information
+        </h2>
+         
+        <div class="form-group">
+            <label for="nameField">Your name</label>
+            <input type="text"  
+            id="nameField"  
+            placeholder="Enter here"
+             class="form-control"/>
+        </div>
+
+
+        <div class="form-group mt-2">
+            <label for="phoneField">Phone </label>
+            <input type="text"  
+            id="phoneField"  
+            placeholder="Enter here"
+             class="form-control"/>
+        </div>
+
+        <div class="form-group mt-2">
+            <label for="addressField">Address</label>
+            <textarea
+            id="phoneField"  
+            placeholder="Enter here"
+             class="form-control">
+            </textarea>
+        </div>
+
+        <div class="form-group mt-2">
+            <label for="EmailField">Email</label>
+            <input type="text"  
+            id="EmailField"  
+            placeholder="Enter here"
+             class="form-control"/>
+        </div>
+         
+        <div class="form-group mt-2">
+            <label for="careerField">Career Highlights</label>
+            <textarea
+             type="text"  
+            id="careerField"  
+            placeholder="Enter here"
+             class="form-control">
+            </textarea>
+        </div>
+
+        
+
+        <h2 class="text-center">Experience</h2>
+
+        <div class="form-group my-3">
+            <label for="experienceField">Experiences</label>
+            <textarea
+            id="experienceField"  
+            placeholder="Enter here"
+             class="form-control">
+            </textarea>
+            <div class="inputBx">
+                
+             <input type="submit" value="Add experience" name="" onclick="myFunction()">
+            
+            </div>
+        </div>
+
+        <h2 class="text-center">Projects</h2>
+        
+        <div class="form-group my-3">
+            <label for="projectField">Projects</label>
+            <textarea
+            id="projectField"  
+            placeholder="Enter here"
+             class="form-control">
+            </textarea>
+            <div class="inputBx">
+                <input type="submit" value="Add project" name="" onclick="myFunction()">
+                
+            </div>
+        </div>
+
+        <h2 class="text-center">Education</h2>
+
+
+        <div class="form-group my-3">
+            <label for="educationField">Education</label>
+            <textarea
+            id="educationField"  
+            placeholder="Enter here"
+                class="form-control">
+            </textarea>
+            <div class="inputBx">
+              <input type="submit" value="Add" name="" onclick="myFunction()">
+              
+            </div>
+        </div>
+
+
+     </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <script src="add.js">
+
+    </script>
+</body>
+
+</html>
